@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joguinho</title>
+    <link rel="stylesheet" href="joguinho.css" href="joguinho.js">
+</head>
+<body id="cookie" class="corpo">
+    <div class="cookie">
+        <h1>Cookies: <span id="contador">0</span></h1><br>
+        <button onclick="clicar()">
+            <img src="Cookie_JE2_BE2.webp" alt="Cookie">
+        </button>
+    </div>
+    
+</body>
+<script>
+let cookies = 0;
+
+function clicar() {
+    cookies++;
+    document.getElementById("contador").textContent = cookies;
+}
+</script>
+</html>

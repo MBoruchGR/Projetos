@@ -1,0 +1,27 @@
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 150px;
+}
+
+.corpo {
+    background: linear-gradient(90deg, rgb(126, 126, 126), rgb(94, 94, 94));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cookie {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0;
+    padding: 0;
+}
